@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            JavaScript current day and time
+        </title>
+    </head>
+    <body>
+        <script>
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth()+1;
+            var yyyy = today.getFullYear();
+        </script>
+        <div>
+            <script>
+                today = mm+'-'+dd+'-'+yyyy;
+                document.write(today);
+            </script>
+        </div>
+        <div>
+            <script>
+                today = mm+'/'+dd+'/'+yyyy;
+                document.write(today);
+            </script>
+        </div>
+        <div>
+            <script>
+                today = dd+'-'+mm+'-'+yyyy;
+                document.write(today);
+            </script>
+        </div>
+        <div>
+            <script>
+                 today = dd+'/'+mm+'/'+yyyy;
+                 document.write(today);
+            </script>
+        </div>
+    </body>
+</html>
