@@ -1,2 +1,2 @@
-# letsupgrade_assignment
+# letsupgrade_javascript_assignment
 javascript
