@@ -1,2 +1,2 @@
 # letsupgrade_assignment
-javscript
+javascript
