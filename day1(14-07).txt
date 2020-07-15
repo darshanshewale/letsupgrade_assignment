@@ -1,0 +1,31 @@
+Day-1(14-07-2020)
+question1->the console is used for web page interactive by using javascript.
+their are different types of console objects they are as follows:
+
+1)console.log():-This is basically used for print .we used it print different types of datatypes also.
+2)console.error():-This is used for testing .it print default error messsage.
+3)console.warn():-This is for warning message.
+4)console.clear():-As name itself shows that it is used for clear the console.
+5)console.time()or timeend() :-which shows the time required to run a block of code.
+6)console.table():- it is for createing table in console .we can give input through the arrays.
+7)console.count():-this is used for number of times function gets called.
+8)console.group():-it is used for group a content.
+
+question2->
+var:-var is declared in the function  then it is only for the function or else we dacleare it outside the function
+     then it becames global .the disadvantages of the var is as we may get change the value  in big codeand it will
+     give wrong output.
+
+let:-let for scope it is definite in the block.which gives the advantages.
+
+const:-we unable to change the varible of const if we change it shows us error .
+
+question3:-javascript has dynamic types.This means that the same variable can be used to hold different data types
+           
+1)string: e.g var name="hello" which is used between single and double quotes.
+2)number:- number is used for a declartion of numbetr they may be int or float e.g var=2or 2.2.
+3)booleans:-which check the condition and gives out but as false or true.
+4)array:-Array items are separated by commas. e.g var cars = ["Saab", "Volvo", "BMW"];
+5)objects:-Object properties are written as name:value pairs, separated by commas.
+
+
