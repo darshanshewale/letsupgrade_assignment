@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            question5
+        </title>
+        <body>
+            <script>
+               let year= 0
+                let total=0
+                while(year<3){
+                alert("enter sales for"+year+"year of employee")
+                let sales= prompt("Enter a sales in year for employees");
+                    if(sales<=5000){
+                      total=total+((2/100)*sales)
+                     }
+                    else if(sales>=5001 && sales<=10000){
+                        total=total+((5/100)*sales)
+
+                    }
+                    else if(sales>=10001 && sales<=20000){
+                        total=total+((7/100)*sales)
+
+                    }
+                    else{
+                        total=total+((10/100)*sales)
+
+                     }
+                year=year+1
+
+               }
+               console.log("total commission earned  "  +total+"  by employee")
+
+            </script>
+        </body>
+    </head>
+</html>
