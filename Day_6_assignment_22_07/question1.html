@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>
+            question1
+        </title>
+    </head>
+
+        <body>
+        
+            <script>
+                var i = 0;
+                function change() {
+                var color = ["orange", "blue", "brown", "green"];
+                document.body.style.backgroundColor = color[i];
+                i = (i + 1) % color.length;
+                }
+                setInterval(change, 5000);
+            
+
+
+            </script>
+        </body>
+</html>

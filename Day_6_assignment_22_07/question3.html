@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            question3
+        </title>
+    </head><style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        </style>
+        
+
+        <body >
+            <div >
+                <h4 id="time"></h4>
+                <button onclick="myFunction()">Toggle dark mode</button>
+
+
+
+
+            <script>
+                let user=prompt("Enter Your Name")
+                document.write("Welcome  "+user+"!!!")
+                function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                }
+
+
+
+                
+                const ctime = document.getElementById('time');
+
+                function clock(){
+                 let date = new Date();
+                let time = date.toLocaleTimeString();
+                ctime.innerText = time;
+                }
+                setInterval(clock,1000);
+
+
+            </script>
+            </div>
+        </body>
+</html>
