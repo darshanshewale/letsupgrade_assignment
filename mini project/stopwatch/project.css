@@ -1,0 +1,9 @@
+.header{
+    margin: auto;
+    text-align: center;
+}
+.btn{
+    box-shadow: darkmagenta;
+    background-color: maroon;
+    contain: layout;
+}
